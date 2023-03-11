@@ -4,9 +4,9 @@ import { View, Text } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { NavigationContainer } from "@react-navigation/native";
 
-import LoginScreen from "./screens/login";
-import HomeScreen from "./screens/home";
-import ProductListScreen from "./screens/productlist";
+import LoginScreen from "./src/pages/login";
+import HomeScreen from "./src/pages/home";
+import ProductListScreen from "./src/pages/productlist";
 
 const Stack = createNativeStackNavigator();
 

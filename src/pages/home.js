@@ -13,7 +13,15 @@ export default function Home_screen({ navigation }) {
   }
 
   return (
-    <View style={{ marginTop: 50, width: "70%", margin: 10 }}>
+    <View
+      style={{
+        marginTop: 50,
+        width: "90%",
+        height: "100%",
+        margin: 10,
+        backgroundColor: "#81d4fa",
+      }}
+    >
       <Text style={{ marginTop: 50 }}>Home Sayfası</Text>
       <Button
         color="#ff5c5c"

@@ -12,7 +12,15 @@ export default function ProductList_screen({ navigation }) {
   }
 
   return (
-    <View style={{ marginTop: 50, width: "70%", margin: 10 }}>
+    <View
+      style={{
+        marginTop: 50,
+        width: "90%",
+        height: "100%",
+        margin: 10,
+        backgroundColor: "#4db6ac",
+      }}
+    >
       <Text style={{ marginTop: 50 }}>Product Sayfası</Text>
       <Button
         color="#ff5c5c"
